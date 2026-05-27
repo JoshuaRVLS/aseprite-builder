@@ -31,7 +31,7 @@ jobs:
         run: |
           # Using the stable m124-08a5439a6b release
           wget https://github.com/aseprite/skia/releases/download/m124-08a5439a6b/Skia-Linux-Release-x64.zip
-          unzip Skia-Linux-Release-x64-libstdc++.zip -d skia
+          unzip Skia-Linux-Release-x64.zip -d skia
 
       - name: Compile Aseprite
         run: |
